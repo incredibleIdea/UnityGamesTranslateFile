@@ -641,7 +641,7 @@ Drop Old phone : [G]=丢下旧电话：[G]
 Drop Sticky note : [G]=丢下便签：[G]
 Lift glass : [E]=提升玻璃：[E]
 ————————操作文本翻译
-Walk : [W/A/S/D]=步行：[w/a/s/d]
+Walk : [W/A/S/D]=<color\=#ffffff>步行：</color>[w/a/s/d]
 Scan : [RMB]=扫描：[RMB]
 Sprint: [Shift]=冲刺：[Shift]
 ————————提示文本翻译
@@ -736,7 +736,7 @@ Value: ???=价值： ???
 Blep2=Blep2
 Notes:\n* Most lazy employee\n* Most paranoid employee\n* Sustained the most injuries=注意： *大多数懒惰的员工 *大多数偏执的员工 *受伤最大
 
-\n<color\=#7069ff>NumberOne joined the ship.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>
+\n<color\=#ffffff>NumberOne joined the ship.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>
 
 
 0 lb=0磅
@@ -768,7 +768,7 @@ NumberOne=NumberOne
 
 {{A}}:{{B}}\nAM={{A}}:{{B}}\nAM
 {{A}}:{{B}}\nPM={{A}}:{{B}}\nPM
-\n<color\=#7069ff>{{A}} joined the ship.</color>=\n<color\=#7069ff>{{A}}加入了船。</color>
+\n<color\=#ffffff>{{A}} joined the ship.</color>=\n<color\=#ffffff>{{A}}加入了船。</color>
 Random seed: {{A}}=随机种子：{{A}}
 {{body}} collected!={{body}} 收集了！
 TOTAL: ${{A}}=总计：$ {{A}}
@@ -795,7 +795,7 @@ v0=v0
 
 
 
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>NumberOne started the ship.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>数字开始了这艘船。</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>NumberOne started the ship.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>数字开始了这艘船。</color>
 
 
 C=C
@@ -856,7 +856,7 @@ CZ/SK =CZ/SK
 goats=山羊
 0 lb=0磅
 
-\n<color\=#7069ff>NumberOne joined the ship.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>
+\n<color\=#ffffff>NumberOne joined the ship.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>
 
 Casualties (x1): -20%=伤亡（x1）：-20％
 
@@ -877,10 +877,10 @@ Blep2=Blep2
 
 
 
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#FF0000>VitaminBBC</color>: <color\=#FFFF00>'hello'</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>'你好'</color>
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#FF0000>VitaminBBC</color>: <color\=#FFFF00>'hello'</color>\n<color\=#FF0000>kokumba</color>: <color\=#FFFF00>'got a mic?'</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>'你好'</color>\n<color\=#FF0000>Kokumba</color>: <color\=#FFFF00>“有麦克风？”</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#FF0000>VitaminBBC</color>: <color\=#FFFF00>'hello'</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>'你好'</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#FF0000>VitaminBBC</color>: <color\=#FFFF00>'hello'</color>\n<color\=#FF0000>kokumba</color>: <color\=#FFFF00>'got a mic?'</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>'你好'</color>\n<color\=#FF0000>Kokumba</color>: <color\=#FFFF00>“有麦克风？”</color>
 Close door : [E]=关门：[E]
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>'你好'</color>\n<color\=#FF0000>Kokumba</color>: <color\=#FFFF00>“有麦克风？”</color>\n<color\=#FF0000>VitaminBBC</color>: <color\=#FFFF00>'mic?'</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>'你好'</color>\n<color\=#FF0000>Kokumba</color>: <color\=#FFFF00>“有麦克风？”</color>\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>``麦克风？''</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>'你好'</color>\n<color\=#FF0000>Kokumba</color>: <color\=#FFFF00>“有麦克风？”</color>\n<color\=#FF0000>VitaminBBC</color>: <color\=#FFFF00>'mic?'</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>'你好'</color>\n<color\=#FF0000>Kokumba</color>: <color\=#FFFF00>“有麦克风？”</color>\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>``麦克风？''</color>
 Typing...=打字...
 \n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>'你好'</color>\n<color\=#FF0000>Kokumba</color>: <color\=#FFFF00>“有麦克风？”</color>\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>``麦克风？''</color>\n<color\=#FF0000>NumberOne</color>: <color\=#FFFF00>'no'</color>=\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>'你好'</color>\n<color\=#FF0000>Kokumba</color>: <color\=#FFFF00>“有麦克风？”</color>\n<color\=#FF0000>维生素BBC</color>: <color\=#FFFF00>``麦克风？''</color>\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'不'</color>
 
@@ -1006,14 +1006,14 @@ Good Knowlage at game=游戏中的知识很好
 alexanderzuniga45's Crew=Alexanderzuniga45的船员
 na hee=na hee
 $30\nDays: 0=$ 30\n天：0
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>上菜的厨子 joined the ship.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>上菜的加入了船。</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>上菜的厨子 joined the ship.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>上菜的加入了船。</color>
 
 
 
 aiden=艾登
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>上菜的加入了船。</color>\n<color\=#7069ff>aiden joined the ship.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>上菜的加入了船。</color>\n<color\=#7069ff>艾登加入了船。</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>上菜的加入了船。</color>\n<color\=#ffffff>aiden joined the ship.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>上菜的加入了船。</color>\n<color\=#ffffff>艾登加入了船。</color>
 
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>上菜的加入了船。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>摆子 joined the ship.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>上菜的加入了船。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>摆子加入了船。</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>上菜的加入了船。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>摆子 joined the ship.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>上菜的加入了船。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>摆子加入了船。</color>
 
 f2=F2
 y9=Y9
@@ -1023,7 +1023,7 @@ o5=O5
 
 
 
-\n<color\=#7069ff>上菜的加入了船。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>摆子加入了船。</color>\n<color\=#7069ff>上菜的厨子 started the ship.</color>=\n<color\=#7069ff>上菜的加入了船。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>摆子加入了船。</color>\n<color\=#7069ff>上菜的厨子开始了这艘船。</color>
+\n<color\=#ffffff>上菜的加入了船。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>摆子加入了船。</color>\n<color\=#ffffff>上菜的厨子 started the ship.</color>=\n<color\=#ffffff>上菜的加入了船。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>摆子加入了船。</color>\n<color\=#ffffff>上菜的厨子开始了这艘船。</color>
 
 S=S
 10 EXP=10 EXP
@@ -1080,7 +1080,7 @@ PROFIT QUOTA:\n$411 / $130=利润配额：$ 411 / $ 130
 
 
 
-\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>摆子加入了船。</color>\n<color\=#7069ff>上菜的厨子登上了这艘船。</color>\n<color\=#7069ff>摆子0 started the ship.</color>=\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>摆子加入了船。</color>\n<color\=#7069ff>上菜的厨子开始了这艘船。</color>\n<color\=#7069ff>摆子0开始了这艘船。</color>
+\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>摆子加入了船。</color>\n<color\=#ffffff>上菜的厨子登上了这艘船。</color>\n<color\=#ffffff>摆子0 started the ship.</color>=\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>摆子加入了船。</color>\n<color\=#ffffff>上菜的厨子开始了这艘船。</color>\n<color\=#ffffff>摆子0开始了这艘船。</color>
 
 
 
@@ -1091,7 +1091,7 @@ r4=R4
 D=d
 
 MONITORING: 摆子0=监视：摆子0
-\n<color\=#7069ff>摆子加入了船。</color>\n<color\=#7069ff>上菜的厨子开始了这艘船。</color>\n<color\=#7069ff>摆子0开始了这艘船。</color>\n<color\=#7069ff>NumberOne started the ship.</color>=\n<color\=#7069ff>摆子加入了船。</color>\n<color\=#7069ff>上菜的厨子开始了这艘船。</color>\n<color\=#7069ff>摆子0开始了这艘船。</color>\n<color\=#7069ff>NumberOne开始了这艘船。</color>
+\n<color\=#ffffff>摆子加入了船。</color>\n<color\=#ffffff>上菜的厨子开始了这艘船。</color>\n<color\=#ffffff>摆子0开始了这艘船。</color>\n<color\=#ffffff>NumberOne started the ship.</color>=\n<color\=#ffffff>摆子加入了船。</color>\n<color\=#ffffff>上菜的厨子开始了这艘船。</color>\n<color\=#ffffff>摆子0开始了这艘船。</color>\n<color\=#ffffff>NumberOne开始了这艘船。</color>
 2:46\nPM=2:46\nPM
 DUE: $60=到期：60美元
 3 casualties: -0%\n(3 bodies recovered)=3伤亡：-0％（治疗了3位员工）
@@ -1107,7 +1107,7 @@ PILOT COMPUTER=飞行器计算机
 
 
 
-\n<color\=#7069ff>NumberOne started the ship.</color>\n<color\=#7069ff>NumberOne was left behind.</color>\n<color\=#7069ff>上菜的厨子 was left behind.</color>\n<color\=#7069ff>摆子0 was left behind.</color>=\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>NumberOne被抛在后面。</color>\n<color\=#7069ff>上菜上菜被抛在后面。</color>\n<color\=#7069ff>摆子0留在后面。</color>
+\n<color\=#ffffff>NumberOne started the ship.</color>\n<color\=#ffffff>NumberOne was left behind.</color>\n<color\=#ffffff>上菜的厨子 was left behind.</color>\n<color\=#ffffff>摆子0 was left behind.</color>=\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>NumberOne被抛在后面。</color>\n<color\=#ffffff>上菜上菜被抛在后面。</color>\n<color\=#ffffff>摆子0留在后面。</color>
 
 F=F
 8 EXP=8 exp
@@ -1363,7 +1363,7 @@ Value: $46=价值：$ 46
 11:54\nPM=11:54\nPM
 11:58\nPM=11:58\nPM
 12:00 \n AM=12:00\nAM
-\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>摆子0留在后面。</color>\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'9-784'</color>\n<color\=#7069ff>aiden disconnected.</color>=\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>摆子0留在后面。</color>\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'9-784'</color>\n<color\=#7069ff>艾登断开了连接。</color>
+\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>摆子0留在后面。</color>\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'9-784'</color>\n<color\=#ffffff>aiden disconnected.</color>=\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>摆子0留在后面。</color>\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'9-784'</color>\n<color\=#ffffff>艾登断开了连接。</color>
 21 EXP=21 Exp
 DUE: $15=到期：15美元
 3 casualties: -60%\n(0 bodies recovered)=3伤亡：-60％（恢复0个尸体）
@@ -1378,7 +1378,7 @@ Value: $17=价值：$ 17
 DUE: $4=到期：$ 4
 Stats=统计
 Days on the job: 16\nScrap value collected: 1206\nDeaths: 20\nSteps taken: 234739=工作日：收集的16个报废价值：1206死亡：20步：234739
-\n<color\=#7069ff>艾登断开了连接。</color>\n<color\=#7069ff>上菜上菜被抛在后面。</color>\n<color\=#7069ff>摆子0开始了这艘船。</color>\n<color\=#7069ff>摆子0 disconnected.</color>=\n<color\=#7069ff>艾登断开了连接。</color>\n<color\=#7069ff>上菜上菜被抛在后面。</color>\n<color\=#7069ff>摆子0开始了这艘船。</color>\n<color\=#7069ff>摆子0断开连接。</color>
+\n<color\=#ffffff>艾登断开了连接。</color>\n<color\=#ffffff>上菜上菜被抛在后面。</color>\n<color\=#ffffff>摆子0开始了这艘船。</color>\n<color\=#ffffff>摆子0 disconnected.</color>=\n<color\=#ffffff>艾登断开了连接。</color>\n<color\=#ffffff>上菜上菜被抛在后面。</color>\n<color\=#ffffff>摆子0开始了这艘船。</color>\n<color\=#ffffff>摆子0断开连接。</color>
 $60\nDays: 0=$ 60\n天：0
 Random seed: 88735675=随机种子：88735675
 
@@ -1495,12 +1495,12 @@ PROFIT QUOTA:\n$692 / $130=利润配额：$ 692 / $ 130
 TOTAL: $5=总计：5美元
 Body (x1) : 5 \n=身体（x1）：5 \n
 PROFIT QUOTA:\n$697 / $130=利润配额：$ 697 / $ 130
-\n<color\=#7069ff>上菜的厨子开始了这艘船。</color>\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'12-833'</color>\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>aiden started the ship.</color>=\n<color\=#7069ff>上菜的厨子开始了这艘船。</color>\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'12-833'</color>\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>艾登开始了这艘船。</color>
+\n<color\=#ffffff>上菜的厨子开始了这艘船。</color>\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'12-833'</color>\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>aiden started the ship.</color>=\n<color\=#ffffff>上菜的厨子开始了这艘船。</color>\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'12-833'</color>\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>艾登开始了这艘船。</color>
 DUE: $16=到期：16美元
 Overtime bonus: $98=加班奖金：$ 98
 PROFIT QUOTA:\n$0 / $228=利润配额：$ 0 / $ 228
 Random seed: 52763914=随机种子：52763914
-\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'12-833'</color>\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>艾登开始了这艘船。</color>\n<color\=#7069ff>上菜的厨子 disconnected.</color>=\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'12-833'</color>\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>艾登开始了这艘船。</color>\n<color\=#7069ff>断开连接。</color>
+\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'12-833'</color>\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>艾登开始了这艘船。</color>\n<color\=#ffffff>上菜的厨子 disconnected.</color>=\n<color\=#FF0000>第一</color>: <color\=#FFFF00>'12-833'</color>\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>艾登开始了这艘船。</color>\n<color\=#ffffff>断开连接。</color>
 $163\nDays: 5=$ 163\n天：5
 PUBLIC means your game will be visible on the server list for all to see.=公众意味着您的游戏将在服务器列表中可见，以供所有人查看。
 (Cannot hold until ship has landed)=（请等待主机开始游戏）
@@ -1732,10 +1732,10 @@ Random seed: 9486614=随机种子：9486614
 8:46\nPM=8:46\nPM
 92 EXP=92 Exp
 $41\nDays: 11=$ 41\n天：11
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>上菜的加入了船。</color>\n<color\=#7069ff>萝卜 joined the ship.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>上菜的加入了船。</color>\n<color\=#7069ff>萝卜加入了船。</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>上菜的加入了船。</color>\n<color\=#ffffff>萝卜 joined the ship.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>上菜的加入了船。</color>\n<color\=#ffffff>萝卜加入了船。</color>
 Random seed: 54316997=随机种子：54316997
 MONITORING: 萝卜0=监视：萝卜0
-\n<color\=#7069ff>萝卜 joined the ship.</color>\n<color\=#7069ff>萝卜0 disconnected.</color>\n<color\=#7069ff>上菜的厨子 disconnected.</color>\n<color\=#7069ff>aiden disconnected.</color>=\n<color\=#7069ff>萝卜加入了船。</color>\n<color\=#7069ff>萝卜0断开连接。</color>\n<color\=#7069ff>断开连接。</color>\n<color\=#7069ff>艾登断开了连接。</color>
+\n<color\=#ffffff>萝卜 joined the ship.</color>\n<color\=#ffffff>萝卜0 disconnected.</color>\n<color\=#ffffff>上菜的厨子 disconnected.</color>\n<color\=#ffffff>aiden disconnected.</color>=\n<color\=#ffffff>萝卜加入了船。</color>\n<color\=#ffffff>萝卜0断开连接。</color>\n<color\=#ffffff>断开连接。</color>\n<color\=#ffffff>艾登断开了连接。</color>
 Player #=玩家＃
 Random seed: 88240832=随机种子：88240832
 Value: $23=价值：$ 23
@@ -1760,7 +1760,7 @@ Orbiting: 56 Vow\nPOPULATION: Abandoned\nCONDITIONS: Humid. Rough terrain. Teemi
 Random seed: 62601631=随机种子：62601631
 48 lb=48磅
 Value: $60=价值：$ 60
-\n<color\=#7069ff>上菜的加入了船。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>萝卜0 started the ship.</color>=\n<color\=#7069ff>上菜的加入了船。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>萝卜0开始了这艘船。</color>
+\n<color\=#ffffff>上菜的加入了船。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>萝卜0 started the ship.</color>=\n<color\=#ffffff>上菜的加入了船。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>萝卜0开始了这艘船。</color>
 95 EXP=95 Exp
 Toy cube=玩具立方体
 Random seed: 91380385=随机种子：91380385
@@ -1882,7 +1882,7 @@ $25\nDays: 10=$ 25\n天：10
 Random seed: 47873157=随机种子：47873157
 Random seed: 75786600=随机种子：75786600
 MONITORING: Louie=监视：Louie
-\n<color\=#7069ff>萝卜0断开连接。</color>\n<color\=#7069ff>萝卜加入了船。</color>\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>aiden was left behind.</color>=\n<color\=#7069ff>萝卜0断开连接。</color>\n<color\=#7069ff>萝卜加入了船。</color>\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>艾登被抛在后面。</color>
+\n<color\=#ffffff>萝卜0断开连接。</color>\n<color\=#ffffff>萝卜加入了船。</color>\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>aiden was left behind.</color>=\n<color\=#ffffff>萝卜0断开连接。</color>\n<color\=#ffffff>萝卜加入了船。</color>\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>艾登被抛在后面。</color>
 93 EXP=93 Exp
 Random seed: 15485761=随机种子：15485761
 42 lb=42磅
@@ -2028,23 +2028,26 @@ Overtime bonus: $4=加班奖金：$ 4
 PROFIT QUOTA:\n$0 / $501=利润配额：$ 0 / $ 501
 
 $777777\nDays: 13=$ 777777\n天：13
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>蕾丝爷爷 joined the ship.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>蕾丝加入了船。</color>
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>蕾丝加入了船。</color>\n<color\=#7069ff>蕾丝爷爷 disconnected.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>蕾丝加入了船。</color>\n<color\=#7069ff>蕾丝断开连接。</color>
-\n<color\=#7069ff>蕾丝加入了船。</color>\n<color\=#7069ff>蕾丝断开连接。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>94Seeeee joined the ship.</color>=\n<color\=#7069ff>蕾丝加入了船。</color>\n<color\=#7069ff>蕾丝断开连接。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>94Seeee加入了船。</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>蕾丝爷爷 joined the ship.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>蕾丝加入了船。</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>蕾丝加入了船。</color>\n<color\=#ffffff>蕾丝爷爷 disconnected.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>蕾丝加入了船。</color>\n<color\=#ffffff>蕾丝断开连接。</color>
+\n<color\=#ffffff>蕾丝加入了船。</color>\n<color\=#ffffff>蕾丝断开连接。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>94Seeeee joined the ship.</color>=\n<color\=#ffffff>蕾丝加入了船。</color>\n<color\=#ffffff>蕾丝断开连接。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>94Seeee加入了船。</color>
 Seeeee=Seeeee
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>Kedi joined the ship.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>Kedi加入了这艘船。</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>Kedi joined the ship.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>Kedi加入了这艘船。</color>
 Kedi=Kedi
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>✪CorKiForChenYi joined the ship.</color>\n<color\=#7069ff>aiden joined the ship.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>corkiforchenyi加入了船。</color>\n<color\=#7069ff>艾登加入了船。</color>
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>corkiforchenyi加入了船。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>91吕先生 joined the ship.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>corkiforchenyi加入了船。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>91吕加入了船。</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>✪CorKiForChenYi joined the ship.</color>\n<color\=#ffffff>aiden joined the ship.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>corkiforchenyi加入了船。</color>\n<color\=#ffffff>艾登加入了船。</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>corkiforchenyi加入了船。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>91吕先生 joined the ship.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>corkiforchenyi加入了船。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>91吕加入了船。</color>
 CorKiForChenYi=Corkiforchenyi
 Random seed: 84475172=随机种子：84475172
 MONITORING: CorKiForChenYi=监测：Corkiforchenyi
 
-\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>91吕加入了船。</color>\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>CorKiForChenYi disconnected.</color>=\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>91吕加入了船。</color>\n<color\=#7069ff>NumberOne开始了这艘船。</color>\n<color\=#7069ff>Corkiforchenyi断开连接。</color>
+\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>91吕加入了船。</color>\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>CorKiForChenYi disconnected.</color>=\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>91吕加入了船。</color>\n<color\=#ffffff>NumberOne开始了这艘船。</color>\n<color\=#ffffff>Corkiforchenyi断开连接。</color>
 Days on the job: 16\nScrap value collected: 1665\nDeaths: 24\nSteps taken: 210323=工作日：收集的16个报废价值：1665死亡：24步：210323
-\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>94Seeee加入了船。</color>\n<color\=#7069ff>GarySmile joined the ship.</color>=\n<color\=#7069ff>NumberOne加入了船。</color>\n<color\=#7069ff>94Seeee加入了船。</color>\n<color\=#7069ff>加里斯·米勒（Garysmile）加入了这艘船。</color>
+\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>94Seeee加入了船。</color>\n<color\=#ffffff>GarySmile joined the ship.</color>=\n<color\=#ffffff>NumberOne加入了船。</color>\n<color\=#ffffff>94Seeee加入了船。</color>\n<color\=#ffffff>加里斯·米勒（Garysmile）加入了这艘船。</color>
 GarySmile=Garysmile
-\n<color\=#7069ff>94Seeee加入了船。</color>\n<color\=#7069ff>加里斯·米勒（Garysmile）加入了这艘船。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>Seeeee disconnected.</color>=\n<color\=#7069ff>94Seeee加入了船。</color>\n<color\=#7069ff>加里斯·米勒（Garysmile）加入了这艘船。</color>\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>Seeeee断开了连接。</color>
+\n<color\=#ffffff>94Seeee加入了船。</color>\n<color\=#ffffff>加里斯·米勒（Garysmile）加入了这艘船。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>Seeeee disconnected.</color>=\n<color\=#ffffff>94Seeee加入了船。</color>\n<color\=#ffffff>加里斯·米勒（Garysmile）加入了这艘船。</color>\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>Seeeee断开了连接。</color>
 Random seed: 29079145=随机种子：29079145
-\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>Seeeee断开了连接。</color>\n<color\=#7069ff>91吕加入了船。</color>\n<color\=#7069ff>GarySmile disconnected.</color>=\n<color\=#7069ff>艾登加入了船。</color>\n<color\=#7069ff>Seeeee断开了连接。</color>\n<color\=#7069ff>91吕加入了船。</color>\n<color\=#7069ff>Garysmile断开了连接。</color>
-\n<color\=#7069ff>91吕加入了船。</color>\n<color\=#7069ff>Garysmile断开了连接。</color>\n<color\=#7069ff>艾登断开了连接。</color>\n<color\=#7069ff>吕先生 disconnected.</color>=\n<color\=#7069ff>91吕加入了船。</color>\n<color\=#7069ff>Garysmile断开了连接。</color>\n<color\=#7069ff>艾登断开了连接。</color>\n<color\=#7069ff>吕断开连接。</color>
+\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>Seeeee断开了连接。</color>\n<color\=#ffffff>91吕加入了船。</color>\n<color\=#ffffff>GarySmile disconnected.</color>=\n<color\=#ffffff>艾登加入了船。</color>\n<color\=#ffffff>Seeeee断开了连接。</color>\n<color\=#ffffff>91吕加入了船。</color>\n<color\=#ffffff>Garysmile断开了连接。</color>
+\n<color\=#ffffff>91吕加入了船。</color>\n<color\=#ffffff>Garysmile断开了连接。</color>\n<color\=#ffffff>艾登断开了连接。</color>\n<color\=#ffffff>吕先生 disconnected.</color>=\n<color\=#ffffff>91吕加入了船。</color>\n<color\=#ffffff>Garysmile断开了连接。</color>\n<color\=#ffffff>艾登断开了连接。</color>\n<color\=#ffffff>吕断开连接。</color>$774627\nDays: 14=$ 774627\n天：14
+$774627\nDays: 14=$ 774627\n天：14
+CHEESEBURGERS WORLD=芝士汉堡世界
+Many Fun Times=许多有趣的时光
