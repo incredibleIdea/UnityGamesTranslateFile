@@ -3,6 +3,6 @@
 商店链接 https://store.steampowered.com/app/1966720/Lethal_Company/
 
 校对&翻译致谢名单:
-(以下排名不分先后)
-RorschachD2
-炸飞
+(以下排名不分先后)<br />
+RorschachD2<br />
+炸飞<br />
