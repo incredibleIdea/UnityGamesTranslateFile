@@ -5,4 +5,4 @@
 校对&翻译致谢名单:
 (以下排名不分先后)<br />
 RorschachD2<br />
-炸飞<br />
+vicvic<br />
