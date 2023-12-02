@@ -40,11 +40,11 @@ namespace TerminalTranslator
                 .Replace("To route the autopilot to a moon, use the word ROUTE", "要使用自动驾驶系统导航到某个星球, 请使用 \"ROUTE\"")
                 .Replace("To learn about any moon, use the word INFO", "要了解任何星球, 请使用 \"INFO\"")
                 .Replace("Buying at", "回收价格")
-                .Replace("Eclipsed", "Eclipsed - 日食")
-                .Replace("Flooded", "Flooded - 洪水")
-                .Replace("Stormy", "Stormy - 暴风雨")
-                .Replace("Foggy", "Foggy - 大雾")
-                .Replace("Rainy", "Rainy - 多雨");
+                .Replace("Eclipsed", "日食")
+                .Replace("Flooded", "洪水")
+                .Replace("Stormy", "暴风雨")
+                .Replace("Foggy", "大雾")
+                .Replace("Rainy", "多雨");
         }
         public void translateCommandStore(ref string raw)
         {
@@ -65,9 +65,9 @@ namespace TerminalTranslator
                 .Replace("* Extension ladder", "* Extension ladder(伸缩梯)")
                 .Replace("* Radar-booster", "* Radar-booster(雷达增幅器)")
                 .Replace("SHIP UPGRADES", "飞船升级项")
-                .Replace("* Loud horn", "* Loud horn(大喇叭)")
-                .Replace("* Teleporter", "* Teleporter(传送器)")
-                .Replace("* Inverse Teleporter", "* Inverse Teleporter(反向传送器)")
+                .Replace("Loud horn", "* Loud horn(大喇叭)")
+                .Replace("Teleporter", "* Teleporter(传送器)")
+                .Replace("Inverse Teleporter", "* Inverse Teleporter(反向传送器)")
                 .Replace("The selection of ship decor rotates per-quota. Be sure to check back next week", "船上装饰的选择按公司指标轮换. 请务必在下周查看")
                 .Replace("Romantic table", "Romantic table(浪漫之桌)")
                 .Replace("Toilet", "Toilet(冲水马桶)")
@@ -85,6 +85,7 @@ namespace TerminalTranslator
         public void translateCommandBestiary(ref string raw)
         {
             raw = raw.Replace("To access a creature file, type \"INFO\" after its name", "要查询指定生物信息，请在输入其英语名称后额外输入\"INFO\"")
+                .Replace("No data collected on wildlife. Scans are required", "尚未收集野生动物数据. 需要扫描")
                 .Replace("NEW", "新增")
                 .Replace("Hygroderes", "Hygroderes - 史莱姆")
                 .Replace("Snare fleas", "Snare fleas - 潜匿蜈蚣")
@@ -109,6 +110,7 @@ namespace TerminalTranslator
                 .Replace("These are the items in storage", "这些是存放在终端存储区中的物品")
                 .Replace("Order tools in bulk by typing a number", "这些是存放的物品")
                 .Replace("No items stored. While moving an object with B, press X to store it", "未存储物品. 按 B 移动物体时, 按 X 将其储存");
+            translateCommandStore(ref raw);
         }
         public void translateCommandOther(ref string raw)
         {
@@ -139,7 +141,33 @@ namespace TerminalTranslator
                 .Replace("Hiding - Sep 30", "Hiding - Sep 30  (躲着 - 9月30日)")
                 .Replace("Desmond - Oct 15", "Desmond - Oct 15  (desmond - 10月15日)");
         }
-
+        public bool translateDetailMoons(ref string raw)
+        {
+            string temp = raw;
+            raw = raw.Replace("Go here to drop off any valuable scrap you've collected while on the job. The rate of return updates hourly and fluctuates over the course of several days.", "前往此处以售卖您在工作期间回收到的任何有价值的废品。回收比例每小时更新，且会在不同工作日之间大幅波动，请多留意。")
+                .Replace("CONDITIONS: Arid. Low habitability, worsened by industrial artifacts.", "气候环境：干旱。宜居性低，由于大量工业遗迹的存在而进一步恶化。")
+                .Replace("HISTORY: Not discovered for quite some time due to its close orbit around gas giant Big Grin. However it appears to have been used in secret.", "星球历史：因与气态巨行星Big Grin过于靠近的轨道，这颗行星在近期才被学者发现。然而，部分迹象表明似乎有人已经对此处进行了秘密开发。")
+                .Replace("FAUNA: Unknown", "生物群：未知")
+                .Replace("CONDITIONS: Arid. Low habitability, worsened by industrial artifacts.", "气候环境：干旱。宜居性低，由于大量工业遗迹的存在而进一步恶化。")
+                .Replace("HISTORY: Not discovered for quite some time due to its close orbit around gas giant Big Grin. However it appears to have been used in secret.", "星球历史：因与气态巨行星Big Grin过于靠近的运行轨道，这颗行星在近期才被学者发现。然而，部分迹象表明似乎已经有人对此处进行了秘密开发。")
+                .Replace("CONDITIONS: Similar to its twin moon, 41-Experimentation, featuring far more jagged and weathered terrain.", "气候环境：与其双子星41-Experimentation相似，该星球的特点为大量锯齿状的风化地形。")
+                .Replace("HISTORY: 220-Assurance is far younger than its counterpart. Discovered not long before 41-Experimentation.", "星球历史：220-Assurance较其双子要年轻许多。学者在发现41-Experimentation不久前找到了这颗行星。")
+                .Replace("CONDITIONS: Humid.", "气候环境：潮湿。")
+                .Replace("HISTORY: Vow appears to have been inhabited by several colonies across its continents, but there is now no sign of life, and they have become a mystery.", "星球历史：研究表明，似乎有许多不同的生物曾在Vow的各个大洲上建立过群落，但目前已无法在该星球上侦测到任何活物，导致该现象的原因我们不得而知。")
+                .Replace("FAUNA: Diverse, teeming with plant-life", "生物群：十分多样，以植物为主。")
+                .Replace("CONDITIONS: Believed to have splintered off from its cousin Assurance, Offense features similar jagged and dry conditions but differs in its ecosystem.", "气候环境：被学者们认为是由其近亲Assurance分裂而来，Offense的气候同样干燥且地形高度风化，但该星球上的生态环境略有不同。")
+                .Replace("HISTORY: 21-Offense is categorized as an asteroid moon and seems to have not existed on its own for more than several hundred years. The industrial artifacts here have suffered damage; it's believed they were built long before 21-Offense was splintered off.", "星球历史：21-Offense类属小行星，其存在时间应该不过数百年。该星球上的工业遗迹有明显的损坏痕迹；它们应该在21-Offense被分裂前就已存在于此。")
+                .Replace("FAUNA: A competitive and toughened ecosystem supports aggressive lifeforms. Travellers to 21-Offense should know it's not for the faint of heart.", "生物群：残酷且富有竞争性的生态环境塑造了多种攻击性极强的生物居住于此。不推荐贪生怕死的员工前往21-Offense开展工作。")
+                .Replace("CONDITIONS: March undergoes constant drizzling weather. Its terrain is more expansive.", "气候环境：March上的零星小雨不断。该星球的地形总体来说更加开阔。")
+                .Replace("HISTORY: This moon is overlooked due to its twin moon, Vow.", "星球历史：该星球曾因其双子星Vow而许久未被学者发现")
+                .Replace("CONDITIONS: Its planet orbits white dwarf star, making for inhospitable, cold conditions. Constant blizzards decrease visibility.", "气候环境：该星球围绕一颗白矮星运行，导致了其寒冷且不宜居住的气候。接连不断的暴风雪会严重影响员工的视野。")
+                .Replace("HISTORY: Several famous travelers went missing here, giving it some reputation. Their bodies are unlikely to be found due to the planet's conditions.", "星球历史：几位著名星际旅者在前往此处后便渺无音讯，让该星球在员工之间有了不小的名气。由于其气候环境，我们难以回收这些旅者的尸体。")
+                .Replace("FAUNA: It's highly unlikely for complex life to exist here.", "生物群：此处存有智慧生命体的可能性甚微。")
+                .Replace("CONDITIONS: A frozen, flat landscape.", "气候环境：一片平坦辽阔的冻土。")
+                .Replace("HISTORY: It looks like this moon was mined for resources. It's easy to get lost within the giant industrial complex. There are many entrances to it littered about the landscape.", "星球历史：这颗星球似乎曾被用于开采资源。稍不小心就会在其巨大的工业设施内迷失方向。地表上设有多个进出设施的出入口。")
+                .Replace("FAUNA: Dangerous entities have been rumored to take residence in the vast network of tunnels.", "生物群：不少传言都说，在设施的不同分区里居住着极度危险的生物。");
+            return raw == temp;
+        }
         public void translateDetailStore(ref string raw)
         {
             raw = raw.Replace("Useful for keeping in touch! Hear other players when the wakie talkie is in your inventory. Must be in your hand and pressed down to transmit voice", "用于保持联系! 当对讲机在你的物品栏中打开时, 你就能听到其他玩家的声音. 必须拿在手上并按下使用才能开始通讯")
@@ -164,8 +192,9 @@ namespace TerminalTranslator
                 .Replace("DISCLAIMER: The inverse teleporter can only transport you out, not in, and you may become trapped. The Company is not responsible for injury or replacement of heads and limbs induced by quantum entanglement and bad luck", "免责声明：逆向传送器只能把你传送出去, 不能把你传送进来, 你可能会被困住. 本公司不对因量子纠缠或运气不佳而导致的头部和四肢受伤负责. ");
         }
 
-        public void translateDetailBestiary(ref string raw)
+        public bool translateDetailBestiary(ref string raw)
         {
+            string temp = raw;
             raw = raw.Replace("Thumpers\n\n", "Thumpers - 重拳猛鱼\n\n")
                 .Replace("Sigurd's danger level: 90%\n\n", "Sigurd对其危险等级评估： 90%\n\n")
                 .Replace("Scientific name: Pistris-saevus", "学名： Pistris-saevus")
@@ -263,10 +292,12 @@ namespace TerminalTranslator
                 .Replace("Sigurd's danger level: 90% Get out o fthere before it goes APE!! You cant hide from it, just evacuate", "Sigurd危险等级评估：90%在它 发 狂 前 赶紧离开儿那！！在这家伙面前你无处可藏，赶快撤离吧")
                 .Replace("Scientific name: INSANEUS THINGUS", "学名：惊 骇 之 物")
                 .Replace("THERE'S NO FREAKING SCIENTIFIC RECORD! good luck, you know as much as us. we just call it the jester", "这魔怔玩意根本没法记录！祝你好运，我们对其也是一无所知。大伙平常都叫它小丑魔盒");
+            return raw == temp;
         }
 
-        public void translateDetailSigurd(ref string raw)
+        public bool translateDetailSigurd(ref string raw)
         {
+            string temp = raw;
             raw = raw.Replace("First Log - Aug 22", "第一篇日志 – 8月22日")
                 .Replace("Date: August 22, 1968", "日期:1968年8月22日")
                 .Replace("Hello. i am writing this log to keep myself sane. I couldnt find a way to do the most basic thing on this old janky butt computer so I had Desmond add it in, the log feature. til now ive just been adding my own notes to the bestiary whatever i know. My brother said i should keep a journal so im doing what i can! I am writing in a proffessional manner, as these logs could become a historical record, as they will projbably be here for years, just as long as there isnt a clean wipe. that is what desmond saidfd", "你好. 写下这篇日志的目的是为了让我保持理智. 这台老式大屁股电脑连最基本的工作都完成不了, 所以我让desmond添加了日志功能. 到目前为止, 我一直在记录所知的奇怪生物. 我兄弟说我应该写写日记, 所以我就记了能记的! 鉴于这些日志可能会成为历史记录, 我就以专业的口吻记录. 只要不全盘清理, 日志估计会存上好几年. desmond是这么说fd的")
@@ -318,6 +349,7 @@ namespace TerminalTranslator
                 .Replace("i started wondering how i cant remember how we really got here, no I just remember little things like the shuttle flight to the building where we signed our contracts. But i dont remember getting on the shuttle, i dont even remember saying bye to dad. in my dreams it feels like the company isnt trapped in there at all, its just hiding. I dont know if im going home", "我开始思考, 我都想不起来我们是怎么到这儿的了, 不对, 我还记得起来一点, 我还记得我们是坐飞船到设施, 路上我们签了合同. 但我不记得我们是怎么登上飞船的, 我甚至记不起有没有和老爸告过别. 梦里我感觉“公司”根本没有被困在设施里, 它只是躲着. 我不知道自己能不能回家. ")
                 .Replace("Desmond - Oct 15", "desmond – 10月15日")
                 .Replace("Desmond. October 3, 1968. I am encrypting these logs to keep them hidden, as I fear the system will be wiped if they are found. It's all a guise. We're supposed to think it's all just a transaction, but our real job is keeping an incredible terror fed. How long until its fullness ends and its hunger is insatiable? God knows, maybe it has to do with all these desolate moons. Whoever reads this, I am sorry to burden you with this. Please have a good day and night--as what else is there for us to do?", "desmond留. 1968年10月3日. 我在加密隐藏这些日志, 因为我害怕他们发现日志后会清理系统. 这一切全是个幌子. 他们让我们以为工作内容是一手交钱一手交货, 但实际上我们的工作是喂养某种可怕的存在. 还要多久才能填满祂的空虚, 满足祂的饥渴？天知道, 或许这一切都和那些残破的卫星有关. 读到这里的人, 我很抱歉把你拖下水了. 祝你出入平安——我们在这还能指望些什么呢?");
+            return raw == temp;
         }
 
 
@@ -376,9 +408,10 @@ namespace TerminalTranslator
                 new { pattern = @"The cost to route to (.+) is \$(\d+)\. It is", zh = "前往 {0} 需要花费 $ {1}. 当前"},
                 new { pattern = @"currently (.+) on this moon", zh ="此星球环境为 {0}"},
                 new { pattern = @"There are (\d+) objects outside the ship, totalling at an approximate value of \$(\d+)", zh = "船外共有 {0} 个物体, 总计价值约为$ {1}"},
-                new { pattern = @"The Company is buying at (\d+)%\.", zh = "公司当前回收价格为 {0}%."},
+                new { pattern = @"The Company is buying at (\d+)%\.", zh = "公司当前回收价格比例为 {0}%."},
                 new { pattern = @"Ordered the (.+)!", zh = "订购了{0}"},
-                new { pattern = @"Ordered (.+)!", zh = "订购了{0}"}
+                new { pattern = @"Ordered (.+)!", zh = "订购了{0}"},
+                new { pattern = @"The Company is buying your goods at (\d+)\%\.", zh = "公司目前的废品回收价格比例为 {0}%."}
             };
 
             foreach (var item in regexTextLists)
