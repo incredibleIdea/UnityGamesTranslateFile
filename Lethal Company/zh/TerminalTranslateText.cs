@@ -52,42 +52,42 @@ namespace TerminalTranslator
                 .Replace("Use words BUY and INFO on any item", "在任何商品前使用 \"BUY \"购买和 \"INFO \"获取信息")
                 .Replace("Order tools in bulk by typing a number", "在商品名称后输入数字批量订购工具")
                 .Replace("Price", "售价")
-                .Replace("Walkie-talkie", "Walkie-talkie - 对讲机")
-                .Replace("Flashlight", "Flashlight - 手电筒")
-                .Replace("Shovel", "Shovel - 铲子")
-                .Replace("Lockpicker", "Lockpicker - 开锁器")
-                .Replace("Pro-flashlight", "Pro-flashlight - 手电筒Pro")
-                .Replace("Stun grenade", "Stun grenade - 震爆弹")
-                .Replace("Boombox", "Boombox - 音响")
-                .Replace("TZP-Inhalant", "TZP-Inhalant - TZP吸入剂")
-                .Replace("Zap gun", "Zap gun - 电击枪")
-                .Replace("Jetpack", "Jetpack - 喷气背包")
-                .Replace("Extension ladder", "Extension ladder - 伸缩梯")
-                .Replace("Radar-booster", "Radar-booster - 雷达增幅器")
+                .Replace("* Walkie-talkie", "* Walkie-talkie(对讲机)")
+                .Replace("* Flashlight", "* Flashlight(手电筒)")
+                .Replace("* Shovel", "* Shovel(铲子)")
+                .Replace("* Lockpicker", "* Lockpicker(开锁器)")
+                .Replace("* Pro-flashlight", "* Pro-flashlight(手电筒Pro)")
+                .Replace("* Stun grenade", "* Stun grenade(震爆弹)")
+                .Replace("* Boombox", "* Boombox(音响)")
+                .Replace("* TZP-Inhalant", "* TZP-Inhalant(TZP吸入剂)")
+                .Replace("* Zap gun", "* Zap gun(电击枪)")
+                .Replace("* Jetpack", "* Jetpack(喷气背包)")
+                .Replace("* Extension ladder", "* Extension ladder(伸缩梯)")
+                .Replace("* Radar-booster", "* Radar-booster(雷达增幅器)")
                 .Replace("SHIP UPGRADES", "飞船升级项")
-                .Replace("Loud horn", "Loud horn - 大喇叭")
-                .Replace("* Teleporter", "* Teleporter - 传送器")
-                .Replace("Inverse Teleporter", "Inverse Teleporter - 反向传送器\n")
+                .Replace("* Loud horn", "* Loud horn(大喇叭)")
+                .Replace("* Teleporter", "* Teleporter(传送器)")
+                .Replace("* Inverse Teleporter", "* Inverse Teleporter(反向传送器)")
                 .Replace("The selection of ship decor rotates per-quota. Be sure to check back next week", "船上装饰的选择按公司指标轮换. 请务必在下周查看")
-                .Replace("Romantic table", "Romantic table - 浪漫之桌")
-                .Replace("Toilet", "Toilet - 冲水马桶")
-                .Replace("Shower", "Shower - 淋浴器")
-                .Replace("Table", "Table - 桌子")
-                .Replace("Record player", "Record player - 唱片机")
-                .Replace("Cozy lights", "Cozy lights - 温馨的灯带")
-                .Replace("Pajama suit", "Pajama suit - 睡衣套装")
-                .Replace("Green suit", "Pajama suit - 绿色套装")
-                .Replace("Hazard suit", "Pajama suit - 危险性套装")
-                .Replace("Television", "Television - 电视")
-                .Replace("Jack-o-Lantern", "Jack-o-Lantern - 杰克灯");
+                .Replace("Romantic table", "Romantic table(浪漫之桌)")
+                .Replace("Toilet", "Toilet(冲水马桶)")
+                .Replace("Shower", "Shower(淋浴器)")
+                .Replace("Table", "Table(桌子)")
+                .Replace("Record player", "Record player(唱片机)")
+                .Replace("Cozy lights", "Cozy lights(温馨的灯带)")
+                .Replace("Pajama suit", "Pajama suit(睡衣套装)")
+                .Replace("Green suit", "Green suit(绿色套装)")
+                .Replace("Hazard suit", "Hazard suit(危险性套装)")
+                .Replace("Television", "Television(电视)")
+                .Replace("Jack-o-Lantern", "Jack-o-Lantern(南瓜灯)");
         }
 
         public void translateCommandBestiary(ref string raw)
         {
-            raw = raw.Replace("To access a creature file, type \"INFO\" after its name", "要访问生物文件, 请在其名称后输入 \"INFO\" ")
-                .Replace("NEW", "新内容")
+            raw = raw.Replace("To access a creature file, type \"INFO\" after its name", "要查询指定生物信息，请在输入其英语名称后额外输入\"INFO\"")
+                .Replace("NEW", "新增")
                 .Replace("Hygroderes", "Hygroderes - 史莱姆")
-                .Replace("Snare fleas", "Snare fleas - 抱脸虫")
+                .Replace("Snare fleas", "Snare fleas - 潜匿蜈蚣")
                 .Replace("Bunker spiders", "Bunker spiders - 地堡巨蛛")
                 .Replace("Hoarding bugs", "Hoarding bugs - 贪财翅虫")
                 .Replace("Thumpers", "Thumpers - 重拳猛鱼")
@@ -124,6 +124,7 @@ namespace TerminalTranslator
         public void translateCommandSigurd(ref string raw)
         {
             raw = raw.Replace("SIGURD'S LOG ENTRIES", "SIGURD的日志记录")
+                .Replace("NEW", "新增")
                 .Replace("To read a log, use keyword \"VIEW\" before its name", "要读取日志, 请在日志名称前使用关键字 \"VIEW\"查看.")
                 .Replace("First Log - Aug 22", "First Log - Aug 22 (第一篇日志 - 8月22日)")
                 .Replace("Smells here! - Aug 24", "Smells here! - Aug 24 (这儿好臭! - 8月24日)")
@@ -160,18 +161,108 @@ namespace TerminalTranslator
                 .Replace("Used to communicate with any crew member from any distance, no walkie talkie required! The horn can be heard from anywhere. But what does it mean? That's up to you", "用于在任何距离与任何船员进行通信, 无需对讲机! 在任何地方都能听到喇叭声. 但这有什么意义呢？这取决于您")
                 .Replace("Press the button to activate the teleporter. It will teleport whoever is currently being monitored on the ship's radar. They will not be able to keep any of their held items through the teleport. It takes about ten seconds to recharge", "按下按钮启动传送器. 它会传送目前被飞船雷达监控的人. 在传送过程中, 他们将无法保留其持有的任何物品. 充能需要大约十秒钟")
                 .Replace("The inverse teleporter is a modified teleporter which will teleport you to a random position outside the ship. All your items will be dropped at the teleporter before transport. The inverse teleporter can be used by everyone at once and has a 3.5 minute cooldown", "反向传送器是一个经过改装的传送器, 会将您传送到飞船外的一个随机位置. 在传送之前, 您的所有物品都将被丢弃在传送器上. 每个人都可以同时使用逆向传送器, 冷却时间为 3.5 分钟. ")
-                .Replace("DISCLAIMER: The inverse teleporter can only transport you out, not in, and you may become trapped. The Company is not responsible for injury or replacement of heads and limbs induced by quantum entanglement and bad luck", "免责声明：逆向传送器只能把你传送出去, 不能把你传送进来, 你可能会被困住. 本公司不对因量子纠缠或运气不佳而导致的头部和四肢受伤负责. ")
-                .Replace("Our contractors enjoy fast, free shipping while on the job! Any purchased items will arrive hourly at your approximate location", "我们的员工在工作期间可享受快速、免费的送货服务! 任何购买的物品都将在1小时内到达您的附近地点");
+                .Replace("DISCLAIMER: The inverse teleporter can only transport you out, not in, and you may become trapped. The Company is not responsible for injury or replacement of heads and limbs induced by quantum entanglement and bad luck", "免责声明：逆向传送器只能把你传送出去, 不能把你传送进来, 你可能会被困住. 本公司不对因量子纠缠或运气不佳而导致的头部和四肢受伤负责. ");
         }
 
         public void translateDetailBestiary(ref string raw)
         {
             raw = raw.Replace("Thumpers\n\n", "Thumpers - 重拳猛鱼\n\n")
-                .Replace("Sigurd's danger level: 90%", "Sigurd对其危险等级评估： 90%")
+                .Replace("Sigurd's danger level: 90%\n\n", "Sigurd对其危险等级评估： 90%\n\n")
                 .Replace("Scientific name: Pistris-saevus", "学名： Pistris-saevus")
-                .Replace("Halves, or Thumpers, are a highly aggressive, carnivorous species of the order Chondrichthyes. Their skeletons are cartilaginous, giving their bodies a stretchy and rubbery quality. Their name comes from the fact they must eat their bottom legs in order to escape the shell of their hatched egg; their bottom legs are hardly functional to begin with. Their arms, or front legs, are very strong, and they occasionally use them to stomp prey. They can reach great speeds in a straight line", "半身鱼, 或重拳猛鱼, 是一种从属软骨鱼纲, 具有极强侵略性的肉食生物. 由于其软骨特性, 该类生物的身体呈带有延展性的橡胶状. 半身猛鱼的名字来源于其需啮噬自身下肢以破壳而出的行为特征；基因内的缺陷使其双腿在出生时就已残废. 它们的手臂, 或称上肢, 具有令人胆寒的力量, 猛鱼们会在必要时用其双拳来揍扁它们的猎物. 该类生物在直线行动时可展现出惊人的速度")
-                .Replace("They are relentless hunters, typically at the top of their food chain. Their main weaknesses are their intelligence and complete lack of hearing. If you come across a thumper, your best means of survival are leaving its line of sight, as it is slower around corners and can't easily track prey.", "猛鱼们是无情的残暴猎手, 通常身处其食物链的顶端. 该类生物的主要缺陷为智力低下与听觉丧失. 假如你在工作期间与猛鱼遭遇, 最好的逃生方法是尽快离开其视线, 它们在转角的移动速度缓慢并将难以追踪其猎物. ")
-                .Replace("Due to the fast and volatile evolution of this species, some theorize that thumpers are one of the examples of an increased number of mutations causing higher levels of speciation in planets around the Thistle Nebula.", "由于其诡异且快速的演化行为, 部分学者认为重拳猛鱼是导致Thistle星云内行星生物群大量出现变异生物体的根本原因. ");
+                .Replace("Halves, or Thumpers, are a highly aggressive, carnivorous species of the order Chondrichthyes. Their skeletons are cartilaginous, giving their bodies a stretchy and rubbery quality. Their name comes from the fact they must eat their bottom legs in order to escape the shell of their hatched egg; their bottom legs are hardly functional to begin with. Their arms, or front legs, are very strong, and they occasionally use them to stomp prey. They can reach great speeds in a straight line", "半身鱼，或重拳猛鱼，是一种从属软骨鱼纲，具有极强侵略性的肉食生物。由于其软骨特性，该类生物的身体呈带有延展性的橡胶状。半身猛鱼的名字来源于其需啮噬自身下肢以破壳而出的行为特征；基因内的缺陷使其双腿在出生时就已残废。它们的手臂，或称上肢，具有令人胆寒的力量，猛鱼们会在必要时用其双拳来揍扁它们的猎物。该类生物在直线行动时可展现出惊人的速度")
+                .Replace("They are relentless hunters, typically at the top of their food chain. Their main weaknesses are their intelligence and complete lack of hearing. If you come across a thumper, your best means of survival are leaving its line of sight, as it is slower around corners and can't easily track prey.", "猛鱼们是无情的残暴猎手，通常身处其食物链的顶端。该类生物的主要缺陷为智力低下与听觉丧失。假如你在工作期间与猛鱼遭遇，最好的逃生方法是尽快离开其视线，它们在转角的移动速度缓慢并将难以追踪其猎物。")
+                .Replace("Due to the fast and volatile evolution of this species, some theorize that thumpers are one of the examples of an increased number of mutations causing higher levels of speciation in planets around the Thistle Nebula.", "由于其诡异且快速的演化行为，部分学者认为重拳猛鱼是导致Thistle星云内行星生物群大量出现变异生物体的根本原因。")
+
+                .Replace("HOARDING BUG", "HOARDING BUG - 贪财翅虫")
+                .Replace("Sigurd's danger level: 0%\n\n", "Sigurd对其危险等级评估：0%\n\n")
+                .Replace("Scientific name: Linepithema-crassus", "学名： Linepithema-crassus")
+                .Replace("Hoarding bugs (of the order Hymenoptera) are large, social insects. While often found living alone, they have been found to share their nests with members of their own species. They measure a height of 3 feet on average, with bulbous bodies. The thinness of their fluid and blood and the material of their carapaces contributes to their low weight, making them capable of flight with their membranous wings. It also makes their bodies somewhat transparent.", "贪财翅虫（膜翅目）是体型庞大，且具有社会性行为的昆虫生物。尽管大多数时间都处于独居状态，翅虫们也会与同类共享巢穴。该类生物平均身长3尺，身体呈球状。其外壳由轻质材料构成，体液与血液也十分稀薄，因此翅虫们的重量很轻，使它们能运用身上的膜翅飞行。此特性也让该类生物的身体略显透明。")
+                .Replace("Hoarding bugs were given their name due to their territorial nature. Once they have chosen a place as their nest, they will seek to adorn it with any object they can find and will protect these objects as a part of the nest. Hoarding bugs are not so dangerous alone as they are in large hives. However, if left alone, hoarding bugs are surprisingly neutral and pose little danger. wWe love the stupid cuddle bugs.!! - tjhis has been a note from the indomitable Sigurd", "贪财翅虫们因其强烈的领地意识而闻名。一旦选中了作为巢穴的地点，翅虫们就会千方百计地将任何物品搬运回其居所，以作为装饰，并会像守护自己的财产般来保护这些偷来的东西。落单的翅虫远没有其成群时那般危险。值得一提的是，独自行动时，这些虫子竟出奇的温顺，基本构不成任何威胁。亻我们可太喜欢这些想要抱抱的蠢虫子了。！！-这辶是来自顽强不屈的Sigurd的留言")
+
+                .Replace("HYGRODERE", "HYGRODERE - 史莱姆")
+                .Replace("Sigurd's danger level: 0%, if you're faster than a snail!", "Sigurd给出的危险等级评估：如果你能跑得比蜗牛快的话，那就为0%！")
+                .Replace("Scientific name: Hygrodere", "学名： Hygrodere")
+                .Replace("A eukaryotic organism classified within the paraphyletic group Prostita. With the incredible speed of reproduction, these small organisms can multiply to millions. Hygrodere rarely split apart, instead choosing to form large, viscous masses which can take up large amounts of space and become a danger to deal with, requiring large tools or lures to relocate.", "这是原深生物并系中的一种真核生物。通过其惊人的自我繁殖能力，该生物最多可生成数以百万计的细胞群。史莱姆少有自我分裂行为，多数情况下，该生物都会牢牢凝聚成占地巨大的粘稠液体，以形成不小的威胁，此时需使用大型工具或诱饵来将其引导至其他位置。")
+                .Replace("Hygrodere are drawn to heat and oxygen and can detect it from seemingly anywhere. There's almost nothing organic they can't convert to their own body mass. Nothing has been found to poison them. Constantly replacing themselves, they can persist for hundreds of thousands of years. If you ever find yourself cornered, find a tall object to stand on top of; hygroderes have trouble climbing. they have great taste! cause I made a friend with one somehow,, and we think it was my music.", "史莱姆貌似能在任何地方感应，并受到氧气与热能的吸引。该生物能吸收，并将几乎每种有机物转化为自身的一员。目前尚未发现能将其麻痹的毒素。出于其自我繁殖的特性，该类生物能够存活长达数十万年。假如你被它们逼入角落，请跳至高处以寻求生机；史莱姆并不具备任何攀爬能力。有一说一，它们的生活品味还真不赖！之所以这么说，是因为我阴差阳错地和一滩史莱姆成了好朋友，，我们认为是我放的音乐吸引了它。")
+
+                .Replace("COIL-HEADS", "COIL-HEADS - 线圈头")
+                .Replace("Sigurd's danger level: 80%", "Sigurd危险等级评估：80%")
+                .Replace("Scientific name: Vir colligerus", "学名： Vir colligerus")
+                .Replace("Vir colligerus, or colloquially named Coil-heads, have not been studied extensively due to their extreme unpredictability and dangerous properties. They have been known to combust into flames when being dissected or even deactivated, and they carry dangerously high levels of radioactive particles. Due to this and other reasons, it has been highly speculated they were created as biological weapons of war, although this has not been proven.", "出于其极高的不可预测与危险性，该类机体，学者称其为铁线木偶，通俗叫法是线圈头，尚未得到机构的深入研究。目前已知线圈头会在遭到拆解或干扰时自焚销毁，此外，它们的体内携带有大量含放射性元素的高危物质。出于上述以及其他原因，大众普遍猜测线圈头是为了战争而开发的生化武器，但尚未有任何实质性的证据能证明该猜想。")
+                .Replace("Coil-heads' visual appearance is that of a bloody mannequin with its head connected by a spring. Their defining behavioral characteristic is to stop when being looked at. However, this does not appear to be a hard-and-fast rule. When they encounter a loud or bright light they sometimes appear to enter a long reset mode.", "线圈头的外观由一尊沾满鲜血的人体模型构成，其头部通过弹簧与身体相连。该机体的行为特点是在遭到生物注视时会停止一切行动。然而，这并非干扰其行动的唯一方法。受到强烈光照时，线圈头似乎会进入一段长时间的系统重置模式。")
+                .Replace("Just stare at htem or use a stun grenade! - Sigurd", "牢牢盯住们它或者丢颗震爆弹就行！ - Sigurd留")
+
+                .Replace("EYELESS DOG", "EYELESS DOG - 无眼猎犬")
+                .Replace("Scientific name: Leo caecus", "学名： Leo caecus")
+                .Replace("A large mammal of the class Saeptivus. They are social, hunting in very large packs. They have also been called \"breathing lions\" for their recognizable sound and large mouths. They are endurance hunters and attempt to make up for their lack of sight with their sense of hearing. It's a popular myth that they often mistake the sounds of their own kind for prey, entering fights within their own packs.", "这是一种从属巨型犬类的大型哺乳动物。该类生物具有社会性行为，多数情况下会成群捕食猎物。因其标志性的血盆大口与极具辨识度的吼声，无眼猎犬们也常被称作“咆哮之狮”。通过对声音的极度感知力以弥补其在视觉上的缺陷，它们得以在捕猎时展现出超凡的耐心。有传言道猎犬们经常将同类发出的声音错当成其猎物，导致自相残杀的情况发生。")
+                .Replace("Their behaviour is unique from other pack animals in their tendency to spread out far to cover distance. When an eyeless dog has found prey, it roars to alert others in the near vicinity, who will also sound the alarm, sometimes resulting in a kind of chain reaction. Eyeless dogs can be dangerous in swarms. However, they are characteristically clumsy, taking guesses at their prey's exact location which are often incorrect.", "与其他群居动物不同，无眼猎犬们在狩猎时更偏好分头行动，以在最大范围内铺设其捕猎网。每当有猎犬发现猎物时，它就会发出震耳欲聋的吼声来通知附近的同类，该行为有时会激起一系列的连锁反应。一旦成群，它们将会构成非常大的威胁。话虽如此，该类生物的动作十分笨拙，会经常错误估计其猎物所处的位置而扑空。")
+
+                .Replace("Manticoils\n\n", "Manticoils - 四翼山雀\n\n")
+                .Replace("Sigurd's danger level: 0%\n\n", "Sigurd给出的危险等级评估：0%\n\n")
+                .Replace("Scientific name: Quadrupes-manta", "学名： Quadrupes-manta")
+                .Replace("Mantacoils are a passerine bird of the family corvidae. Their bodies are quite large compared to their early descendants, and their wingspan ranges from 55 to 64 inches. Their most defining characteristic is their set of four wings. Their back wings are mostly used to stabilize when at low speed, while their front two wings create the majority of lift. Their round bodies are a striking yellow but with black outlines or stripes along their primary (rear) feathers.", "四翼山雀是鸦科类下的一种雀形生物。与其早期后裔相比，四翼山雀的体型较大，其翼展在55至64英尺之间。该类生物最明显的特征在于其身上的四对翅膀。后方的羽翼主要用于在低速飞行时保持稳定，而前侧双翅则负责提供飞行时所必要的升力。山雀全身呈亮黄色，其发翔羽上则带有黑色轮廓或条纹。")
+                .Replace("Manticoils mostly feed on small insects but can also feed on small rodents. They are highly intelligent and social. They pose little threat and have a generally passive temperament towards humans, although they are capable of transmitting Rabies, Rubenchloria, and Pitt Virus.", "四翼山雀们主要以小型昆虫为食，但有时也会对一些体型较小的啮齿动物大快朵颐。该类生物具有很高的社会性与智力。它们几乎构不成任何威胁，在人类面前也较为温顺，不过山雀依然是数类病毒的携带体，如Rabies, Rubenchloria以及Pitt病毒。")
+
+                .Replace("Spore lizard\n\n", "Spore lizard - 孢子蜥蜴\n\n")
+                .Replace("Sigurd's danger level: i ,dont know probably 5% i just hate this pudgy legged little sh it", "Sigurd对其危险评估：我...我不知道大概5%吧我只是比较讨厌这种矮胖短腿的小混 球")
+                .Replace("Scientific name: Lacerta-glomerorum", "学名： Lacerta-glomerorum")
+                .Replace("Colloquially named puffers or spore lizards, Lacerta-glomerorum (of the family Alligatoridae) is one of the largest and heaviest reptiles. Despite their large mouths, they are herbivores and do not have a strong bite. The bulbs on their tails are believed to secrete a chemical which attracts and accelerates the growth of the fungus species Lycoperdon perlatum, which it can then shake to release spores as a defense mechanism--an unique example of a mutualistic symbiotic relationship.", "常被大伙称作陆地河豚或孢子蜥蜴，孢体蝘蜓（从属短吻鳄科）是最庞大、最有份量的爬行动物之一。尽管拥有令人发慌的大嘴，孢子蜥蜴们其实是食草动物，并且其咬合力较弱。学者们普遍认为，它们尾部携带的球茎可以分泌出一种化学物质，以促进并提高马勃菌类的生长速度，蜥蜴随后可通过剧烈摇晃这些菌类来释放孢子，以此达到自我保护的目的--这是种非常独特的偏利共生关系。")
+                .Replace("Spore lizards have a very timid temperment, tending to avoid all confrontation if possible. If their attempts at threat display are not effective, they may attempt to attack, so it's not recommended to corner or chase one. There are historical records that spore lizards were at least partially domesticated hundreds of years ago, however this effort was set aside by an initiative to harvest their tails for their medicinal properties.", "孢子蜥蜴的性格十分胆怯，会尽可能避免与所有物种发生冲突。假如其虚张声势的姿态无法逼退对方，蜥蜴们也会在必要时发起攻击，因此不建议各位尾随或将它们逼入死路。据史料记载，曾有部分孢子蜥蜴在数百年前就已被人类驯化，但随后因其尾部极佳的药用性，该物种遭到大规模捕猎并被重新发放回自然。")
+
+                .Replace("Bracken -- AKA flower man!", "Bracken - 蕨影 -- 又称 花男！")
+                .Replace("it was flower man, you can't say othrwise! i wanted to find his body .You were the cowards", "刚刚那玩意肯定就是花男，不接受反爻！我想找回他的尸体 。都是因为你们这帮懦夫")
+                .Replace("Scientific name: Rapax-folium", "学名： Rapax-folium")
+                .Replace("There is debate on the genus to which the Bracken belongs. It is a bipedal vertebrate with skin the color and texture of a red beat. The name was coined for what appear to be leaves protruding from its upper spine. The purpose of these is believed to be for intimidation, however not much is known about the specifics of bracken behaviour due to its illusiveness and low population.", "学术界内，对蕨影的从属一直存在争议。这是一种双足脊椎生物，其表皮的颜色与材质和甜菜艮相近。蕨影之名来源于其上脊柱处生长出的蕨叶。该特征被认为是蕨影用于恐吓对方的手段，然而，因其飘忽不定的行踪以及较低的物种数量，对该类生物习性的研究一直难以开展。")
+                .Replace("We know a little from accounts by wildlife experts who have encountered it. is a lone hunter with high intelligence. Its behavior can seem aloof; it exhibits high aggression even when unprovoked, yet it quickly backs off when confronted. However, brackens are known to up their hostility when cornered or simply watched for a long time. For this reason it's recommended to keep an eye on it but not to stare it down. No specimens have been collected dead or alive. It's theorized that upon death their bodies undergo a rapid decomposition process which is unique from other large animals.", "从遇到过蕨影的生物专家那，我们得以对该物种的情况略作了解。该类生物是具有高等智力的独行猎手。其行为貌似有些独来独往；在没有受到威胁时，蕨影会展现出极强的侵略性，然而一旦行踪被发现，它就会立刻躲回阴影内伺机待发。此外，当被对方逼入角落，或长时间注视时，蕨影会被激怒并表现出强烈的攻击性。因此建议员工时刻注意它们的行踪，但请务必不要凝视它们太久。目前暂未收集到任何蕨影的标本。据理论推测，与其他大型生物不同，蕨影会在死亡时快速自我分解，以不留下任何痕迹。")
+
+                .Replace("Circuit Bees\n\n", "Circuit Bees - 电击蜜蜂\n\n")
+                .Replace("Sigurd's danger level: 90%\n\n", "Sigurd危险等级评估：90%\n\n")
+                .Replace("Scientific name: Crabro-coruscus", "学名： Crabro-coruscus")
+                .Replace("The circuit bee, also known as red bee, is a eusocial flying insect of the genus Apis, a descendent of the honey bee. Their appearance is quite recognizable from their hairy, red bodies and two sets of wings. Like their ancestors, they are well-known for their intelligent social BEEhavior, large colony size, building wax nests which they use to store honey, and their important role in pollination. Unlike the honey bee, which often chose high places such as trees to construct its hive, red bees create their hives on the ground.", "电击蜜蜂，或称红蜂，是蜜蜂属下一种带有真社会性的飞行昆虫，它们是各位所熟知的蜜蜂的后代。电击蜜蜂显眼的外观由其多毛红色的躯体以及两对翅膀构成。与其祖先相似，该类生物以高度发达的“蜂”会性行为，庞大的群落规模，筑巢储蜜以及对植物授粉的重要性而闻名。与普通蜜蜂喜好在高处筑巢的习性不同，这类生物更偏爱在地面上构筑它们的家园。")
+                .Replace("Red bees are highly defensive. They will leave the nest to attack any creature that comes within several meters, leaving BEEhind only the queen and drone bees. This bold BEEhavior is enabled by their most defining aBEElity, which is their electrostatic charge. Red bees produce friction with the air. They also produce friction by rubbing their two pairs of wings against each other and by rubbing against one another while in the hive. What allows them to create such a surplus of electric field compared to the honey bee is still under research, as they generate a stronger electric field when panicked or angered. This ability is especially useful for them around water.", "红蜂们对蜂巢的保护性极强。当蜂巢数米内有其他生物靠近时，它们会在将蜂后与雄蜂秘“蜜”安置好后，倾巢发动攻击。多亏了身上神“蜜”产生的静电荷，它们才得以展现出如此“蜂”狂的行为。红蜂能与空气发起极高频率的摩擦。它们也会将其双翅，或是在蜂巢中与其同类进行摩擦。学者们仍在研究是什么因素导致了电击蜜蜂能够制造出如此强大的电场，此外，在感到惊慌或愤怒时，该电场的强度还会进一步提升。这项能力为它们在水源附近生活提供了得天独厚的条件。")
+                .Replace("It's BEEst to keep your distance. If a red bee hive is stolen, red bee swarms will enter an onslaught in which they attack any living creature. This destructive BEEhavior will last until they have located the hive or completely exhausted themselves, which can take hours to days. They have BEEn known to leave BEEhind fields of bodies of small rodents, insects and even some larger mammals, and in rare cases they can start fires. Their strong BEEnefits and drawbacks to their ecosystems are highly debated. BEEbated !! - the indomitable Sigurd", "如果你没“蜂”的话就和它们保持距离。假如其蜂巢被盗走，红蜂群会开展一场大范围的屠戮，对附近范围内的所有活物发起攻击。这种近乎“蜂”狂的行为会在它们找回蜂巢，或是精疲力竭后才得以停歇，这些家伙的精力可持续十几小时，最长可达数天。攻击结束后，它们往往会留下一地的尸体，其中包括一些小型啮齿动物与昆虫，有时就连大型哺乳动物的生命在它们面前也仅如“蜂”中残烛，极端情况下，它们甚至能引发火灾。这类生物对其生态圈的贡献与破坏往往能将学者之间的讨论推向顶峰。是顶“蜂” ！！ - 永不言败的Sigurd留")
+
+                .Replace("Baboon hawk\n\n", "Baboon hawk - 翼猿\n\n")
+                .Replace("Sigurd's danger level: 75%", "Sigurd危险等级评估：75%")
+                .Replace("Scientific name: Papio-volturius", "学名： Papio - volturius")
+                .Replace("Baboon hawks are a primate of the family Cercopithecidae. They are hunchbacked but can stand up to 8 feet on average. Their heads are boney, with bird-like beaks and long horns, which they use like skewers to gore and feed on prey. Their horns are made of keratin instead of bone like the rest of their skulls, and they do not contain nerves or blood vessels. As a result baboon hawks can often break their horns from the force they apply, then fully regrow them within the same season. Baboon hawks partly owe their name to their large wings, which could never carry their large body mass and are used instead for intimidation and protection from the elements.", "翼猿是灵长目下的一种猴类生物。看似驼背，但平均身长可达8英尺。该类生物的头部较为瘦削，伴有长角以及如鸟类般的喙嘴，用于刺伤并撕咬猎物。不同于其他由硬骨形成的头骨部位，它们的一对长角由角蛋白构成，并且其中不含任何血管或神经组织。因此，翼猿们在行动时会经常撞伤长角，但又因相同理由，长角们很快就能再次复原。之所以称其为翼猿，一定程度上是因为它们身上巨大的翅膀，由于其体重过大无法飞行，这对翅膀常被用于自我防护或恐吓猎物。")
+                .Replace("The largest baboon hawk troop ever observed was made up of 18 baboon hawks. They are loosely territorial, and much of their behavior is motivated by intimidation and display. They can become collectors, using any flashy or colorful object to mark their territory. As lone scouts, baboon hawks are generally timid and won't attack unless provoked. In greater numbers they can become a great danger; sticking close to others and making yourself seem dangerous are the best ways to prevent an attack. They prefer smaller mammals, but when desperate they are known to use their numbers to attack animals even twice their size, such as eyeless dogs. THEY TOOK M Y PICKLES", "据观测，翼猿军的最大规模可达18只翼猿。该生物的领地意识较弱，并且大部分行为都是为了向对方虚张声势。它们有时也会展现强烈的收集欲望，用各种花里胡哨的物品来标记领地。单独行动时，除非受到威胁，翼猿通常较为温顺。然而，成群的翼猿拥有摧枯拉朽的威力。与其他员工结伴行动并让自己看起来像个狠人通常可以避免被翼猿攻击。该类生物常以其他小型哺乳动物为食，但在走投无路时也会通过数量优势来对其两倍身形的生物发起进攻，例如无眼猎犬。这 帮 畜 生 把 老 子 的 酱 瓜 抢 走 了")
+
+                .Replace("FOREST KEEPER", "FOREST KEEPER - 森林守卫")
+                .Replace("Sigurd's danger level: 50%", "Sigurd危险等级评估：50%")
+                .Replace("Scientific name: Satyrid-proceritas", "学名： Satyrid-proceritas")
+                .Replace("Believed to share a common ancestor with rapax-folium, these behemoths are called Forest Keepers for the biomes they often inhabit. Their bodies bare markings on their front and back which mimic eyes--this trait is more helpful in their youth, as they are not agile. Their skin is a unique, dense material which hardens further throughout their lives; the large spikes and bumps across their bodies form as a result of aging.", "因其居住的生态环境，这些巨物被称作森林守卫，学者们普遍认为它们与不死树精根出同源。其身体前后的斑纹被用于模仿双眼--守卫们的行动迟缓，而这些斑纹能在它们年轻时提供更好的视觉辅助。该生物的表皮由一种高密度的奇特材料构成，会随着其年龄增长而逐渐硬化；它们身上长出的巨型凸起与尖刺也是岁月留下的痕迹。")
+                .Replace("It's been said Forest Keepers exhibit a curious behavior similar to that of a human child the age of 5 or 6. They will eat anything they find fascinating. Forest Keepers don't actually need to put anything into their mouths, and it's theorized their main source of energy is a process similar to photosynthesis. Still, this makes them relatively dangerous to observe. They can see across long distances, so staying low and making use of cover is a must. They cannot enter small spaces and are not generally destructive, so stay close to shelter or overhangs.", "有研究表明，森林守卫会展现出与人类5至6岁孩童相似的探索行为。它们会将所有自己感兴趣的东西放入嘴里。严格来说，该类生物并不需要通过进食来维持生命，比较主流的理论认为是一种类似光合作用的现象在为它们提供必要的养分。话虽如此，要对森林守卫开展科学考察仍然是件风险较高的差事。它们的视距极长，因此请务必放低身子并合理运用掩体。庞大的体型导致它们无法进入到狭小的空间内，通常也不具备破坏性，所以请待在屋檐下或飞船内以保安全。")
+
+                .Replace("Roaming Locusts\n\n", "Roaming Locusts - 漫游蝗虫\n\n")
+                .Replace("Sigurd's danger level: 0%", "Sigurd对其危险等级评估：0%")
+                .Replace("Scientific name: Anacridium-vega", "学名： Anacridium-vega")
+                .Replace("Known as roaming locusts, this is a species of grasshopper. Unlike some species which are more prone to jump or fly, roaming locusts are almost never grounded and stay close together even when in smaller numbers. They will quickly disperse when a predator disrupts them but are highly attracted to light.", "其名漫游蝗虫，是一种属于锥尾亚目的昆虫。不同于其他虫类对于贴地弹跳和短暂飞行的执着，该生物自打出生后似乎就从未接触过地面，即便在附近同类稀少的情况下，它们也会牢牢地聚在一起。当捕食者出现时，蝗虫群会一哄而散，但很快就会受到灯光的吸引而再次扎堆。")
+
+                .Replace("SNARE FLEA", "SNARE FLEA - 潜匿蜈蚣")
+                .Replace("Sigurd's danger level: 30%", "Sigurd危险等级评估：30%")
+                .Replace("Scientific name: Dolus-scolopendra.", "学名： Dolus-scolopendra。")
+                .Replace("A very large arthropod of the class chilopoda. Its body produces a silk which it primarily uses to propel itself to places where it is concealed. Its exoskeleton is somewhat fragile, and they can die from long falls. The snare flea does not produce venom, nor does it have a strong bite. It makes up for this weakness with its ability to tighten itself around large prey to suffocate.", "这是一种从属唇足纲的大型节肢动物。该类生物的身体可产生丝线，以用于将自身勾至高处来隐蔽自己。它们的外层骨骼略显脆弱，从高处跌落时会直接毙命。潜匿蜈蚣既无法生成任何毒液，也没有强大的咬合力。作为代偿，它们的特殊能力是可以紧紧缠绕在大型猎物的身上，使其窒息而亡。")
+                .Replace("The snare flea thrives in dark, warm areas. It cannot survive low temperatures and generally avoids open air and sunlight take the rats outside or just beat the hell otu of them! i think their insides could make a good milkshake,,", "蜈蚣们偏爱阴暗且潮湿的地方。它们无法在低温环境下生存，通常会避开空旷晴朗的地方把这些臭虫引到室外或者直接打个巴稀烂！我感觉把它们的内脏拿来做成奶昔味道应该不错，，")
+
+                .Replace("EARTH LEVIATHAN", "EARTH LEVIATHAN - 隐地利维坦")
+                .Replace("Sigurd's danger level: 2% cause they can't hide from the ship cmaeras!!", "Sigurd危险等级评估：2%，因为它们的行踪能在飞船探图测上被看得一干二净！！")
+                .Replace("Scientific name: Hemibdella-gigantis", "学名： Hemibdella-gigantis")
+                .Replace("The reverently named Earth Leviathan, of the family Piscicolidae, is one of the largest invertibrates found around the Thistle Nebula. None have been captured, so not much is known of their biology.", "从属鱼蛭科，并作为Thistle星云中体积最大的无脊椎动物之一，它们被各界学者尊称为隐地利维坦。目前仍未能成功捕捉到该生物，因此我们对其内部结构暂不了解。")
+                .Replace("They seem to behave as predators. It's speculated they can burrow as far as 40 meters underground, judging by the incredible excavations they can leave behind. They can detect even the slightest vibrations, and for this reason it's not recommended to stay still if they are nearby; that is a myth. Instead, if you hear them burrowing, retrace your steps.", "利维坦们似乎常以捕食者的身份出现。从其留下的巨型坑道来看，它们最多能下潜至40米深。这类生物可以侦测到地面上的任何波动，因此当附近有利维坦时，不推荐员工停下脚步以保平安；真是瞎说。听好了，如果你察觉到附近有明显的掘洞声，就请立刻折返。")
+
+                .Replace("Bunker spiders\n\n", "Bunker spiders - 地堡巨蛛\n\n")
+                .Replace("Sigurd's danger level: 20%", "Sigurd危险等级评估：20%")
+                .Replace("Scientific name: Mutinum-ficedula", "学名： Mutinum-ficedula")
+                .Replace("Bunker spiders, of the genus Theraphosa, are the largest arachnid found in the Thistle Nebula and the second largest ever discovered. It's believed they evolved to prey on large mammals over the course of a measly several hundred years after the Boat made its trip around the Thistle Nebula.", "地堡巨蛛，作为捕鸟蛛属的一员，是Thistle星云中最大，也是截至目前全宇宙体型第二大的蛛类生物。普遍说法是，在“船”环游了Thistle星云后，这类生物仅花了短短几百年就进化成了能够捕猎大型哺乳动物的玩意。")
+                .Replace("(Refer to: Speculation on Increased Speciation Around the Fading Nebulae)", "（参考文献：对消逝星云内生物多样性不断提高而产生的猜想）")
+                .Replace("Bunker spiders produce silk and lay it around their chosen nesting area, then wait for it to be tripped on. They can be seen waiting on walls, often over doorways where prey could enter unaware. If you find a bunker spider 'unprepared' it may freeze as a defensive reaction. In this case they are best left alone. If a bunker spider reacts aggressively, it is best not to fight with ordinary tools. They use their webs to make up for their rather slow movement, so take note of your surroundings. Their webs can be broken easily with any blunt tool.", "巨蛛们会在选定筑巢区域后在其中布下蛛网，随后静静等待猎物走入陷阱。它们一般会挂在墙上，也时常会在门后迎接那些粗心大意的客人。假如你与一只正“准备”潜伏的巨蛛撞了个正着，它或许会呆在原地不动以作为防御手段。此时最好给它们一些私“蛛”空间。假如巨蛛对你发起攻击，不建议各位用一般的道具与其对抗。巨蛛们会铺设天罗地网来弥补其缓慢的移动速度，因此请时刻注意周围环境。它们的网倒是用钝器轻轻一敲就能排除。")
+                .Replace("Bunker spiders can pose a great danger to humans and urban explorers especially, without a great benefit to their ecosystems. A resulting kill-on-sight order has been informally agreed upon between many states home to the Bunker spider, and it is currently approved by the ITDA as of 10/6/2497.", "地堡巨蛛对人类以及都市探险者们来说是非常巨大的隐患，这类生物对我们的生态环境可谓是百害而无一利。因此，有巨蛛栖息的许多国家都在私下达成了协议，承诺一旦发现巨蛛，立刻清除，该协议已在2497年10月6日经ITDA审批通过。")
+
+                .Replace("JESTER", "JESTER - 小丑魔盒")
+                .Replace("Sigurd's danger level: 90% Get out o fthere before it goes APE!! You cant hide from it, just evacuate", "Sigurd危险等级评估：90%在它 发 狂 前 赶紧离开儿那！！在这家伙面前你无处可藏，赶快撤离吧")
+                .Replace("Scientific name: INSANEUS THINGUS", "学名：惊 骇 之 物")
+                .Replace("THERE'S NO FREAKING SCIENTIFIC RECORD! good luck, you know as much as us. we just call it the jester", "这魔怔玩意根本没法记录！祝你好运，我们对其也是一无所知。大伙平常都叫它小丑魔盒");
         }
 
         public void translateDetailSigurd(ref string raw)
@@ -233,6 +324,7 @@ namespace TerminalTranslator
         public void translateMisc(ref string raw)
         {
             raw = raw.Replace("Do you want to route the autopilot to the Company building?", "您想让自动驾驶系统操控飞船前往公司大楼吗?")
+                .Replace("You have requested to order the survival kit:", "您已申请订购生存工具包: ")
                 .Replace("There was no action supplied with the word.", "未找到对应的命令")
                 .Replace("You could not afford these items", "您买不起这些物品")
                 .Replace("Cancelled order", "订单已取消")
@@ -249,12 +341,34 @@ namespace TerminalTranslator
                 .Replace("stormy", "暴风雨")
                 .Replace("foggy", "大雾")
                 .Replace("rainy", "多雨")
-                .Replace("mild weather", "温和的天气");
+                .Replace("mild weather", "温和的天气")
+                .Replace("DATA CORRUPTED OR OVERWRITTEN", "数据已损坏或被覆盖")
+                .Replace("Toggling radar cam", "正在切换雷达监视器画面")
+                .Replace("Switched radar to player", "已切换雷达监视器画面至目标玩家")
+                .Replace("Pinged radar booster", "已发送命令至雷达增幅器")
+                .Replace("Our contractors enjoy fast, free shipping while on the job! Any purchased items will arrive hourly at your approximate location", "我们的员工在工作期间可享受快速、免费的送货服务! 任何购买的物品都将在1小时内到达您的附近地点")
+                .Replace("Hold the cord to activate the loud horn", "握住绳索启动大喇叭")
+                .Replace("Press the button to activate the teleporter. It will teleport whoever is currently being monitored on the ship's radar. You will not be able to keep any of your held items through the teleport. It takes about 10 seconds to recharge", "按下按钮启动传送器。它将传送目前被飞船雷达监控的人。在传送过程中，您将无法保留所持有的任何物品。充能需要大约 10 秒钟")
+                .Replace("Press the button and step onto the inverse teleporter while it activates", "按下按钮，在启动时站在反向传送器上")
+                .Replace("Use the light switch to enable cozy lights", "使用灯光开关开启温馨的灯带")
+                .Replace("Press [B] to rearrange objects in your ship and [V] to confirm", "按 [B] 重新排列飞船中的物体，按 [V] 确认")
+                .Replace("This has already been unlocked for your ship", "您的飞船已解锁此功能")
+                .Replace("* Walkie-talkies", "* 对讲机")
+                .Replace("* Flashlights", "* 手电筒")
+                .Replace("* Shovel", "* 铲子")
+                .Replace("The delivery vehicle cannot hold more than 12 items", "送货仓单次不能装载超过 12 件物品。")
+                .Replace("at a time. Please pick up your items when they land", "请在货物着陆时拿走你的物品");
 
             List<object> regexTextLists = new List<object> {
                 new { pattern = @"Ordered (\d+) (.+)\. Your new balance is \$(\d+)\.", zh = "预定了{0}个{1}, 您当前余额为 $ {2}."},
-                new { pattern = @"You have requested to order (.+)\. Amount: (\d+)\.", zh = "您预定了{0} . 数量: {1}."},
+                new { pattern = @"You have requested to order (.+)\. Amount: (\d+)\.", zh = "您已申请订购了{0} . 数量: {1}."},
+                new { pattern = @"You have requested to order the (.+) ship upgrade\.", zh = "您已申请订购了{0}飞船升级配件 ."},
+                new { pattern = @"You have requested to order a (.+)\.", zh = "您已申请订购了{0}."},
+                new { pattern = @"You have requested to order the (.+)\.", zh = "您已申请订购了{0}."},
+                new { pattern = @"You have requested to order (.+)\.", zh = "您已申请订购了{0}."},
+                new { pattern = @"Amount: (\d+)\.", zh = "数量: {0} ."},
                 new { pattern = @"Total cost of items: \$(\d+)\.", zh = "所有物品共计: $ {0} ."},
+                new { pattern = @"Total cost of item: \$(\d+)\.", zh = "物品共计: $ {0} ."},
                 new { pattern = @"Your balance is \$(\d+)\. Total cost of these items is \$(\d+)", zh = "您的余额为 $ {0},  这些物品总计需要$ {1}"},
                 new { pattern = @"Routing autopilot to the (.+)", zh = "自动驾驶系统正在引导飞船前往{0}"},
                 new { pattern = @"Routing autopilot to (.+)", zh = "自动驾驶系统正在引导飞船前往{0}"},
@@ -262,7 +376,9 @@ namespace TerminalTranslator
                 new { pattern = @"The cost to route to (.+) is \$(\d+)\. It is", zh = "前往 {0} 需要花费 $ {1}. 当前"},
                 new { pattern = @"currently (.+) on this moon", zh ="此星球环境为 {0}"},
                 new { pattern = @"There are (\d+) objects outside the ship, totalling at an approximate value of \$(\d+)", zh = "船外共有 {0} 个物体, 总计价值约为$ {1}"},
-                new { pattern = @"The Company is buying at (\d+)%\.", zh = "公司当前回收价格为 {0}%."}
+                new { pattern = @"The Company is buying at (\d+)%\.", zh = "公司当前回收价格为 {0}%."},
+                new { pattern = @"Ordered the (.+)!", zh = "订购了{0}"},
+                new { pattern = @"Ordered (.+)!", zh = "订购了{0}"}
             };
 
             foreach (var item in regexTextLists)
@@ -277,18 +393,44 @@ namespace TerminalTranslator
                     string[] matchParams = new string[match.Groups.Count];
                     for (int i = 1; i < match.Groups.Count; i++)
                     {
-                        Logger.Log.LogInfo(i);
-                        Logger.Log.LogInfo(match.Groups[i].Value);
-                        matchParams[i - 1] = match.Groups[i].Value;
+                        string value = match.Groups[i].Value;
+                        matchParams[i - 1] = translateItemName(ref value);
                     }
                     raw = reg.Replace(raw, String.Format(pdZh.GetValue(item).ToString(), matchParams));
                 }
-                else
-                {
-                    Logger.Log.LogMessage("Match Failed");
-                    Logger.Log.LogMessage(match.ToString());
-                }
             }
         }
+        private string translateItemName(ref string raw)
+        {
+            return raw.Replace("walkie-talkies", "对讲机")
+                .Replace("pro flashlights", "手电筒Pro")
+                .Replace("flashlights", "手电筒")
+                .Replace("shovels", "铲子")
+                .Replace("lock-pickers", "开锁器")
+                
+                .Replace("stun grenades", "震爆弹")
+                .Replace("boom boxes", "音响")
+                .Replace("TZP-Inhalants", "TZP吸入剂")
+                .Replace("zap guns", "电击枪")
+                .Replace("jetpacks", "喷气背包")
+                .Replace("jetpack", "喷气背包")
+                .Replace("extension ladders", "伸缩梯")
+                .Replace("radar boosters", "雷达增幅器")
+                .Replace("loud horn", "大喇叭")
+                .Replace("inverse teleporter", "反向传送器")
+                .Replace("teleporter", "传送器")
+                .Replace("romantic table", "浪漫之桌")
+                .Replace("toilet", "冲水马桶")
+                .Replace("shower", "淋浴器")
+                .Replace("table", "桌子")
+                .Replace("record player", "唱片机")
+                .Replace("television", "电视")
+                .Replace("jack-o-Lantern", "南瓜灯")
+                .Replace("cozy lights", "温馨的灯带")
+                .Replace("pajama suits", "睡衣套装")
+                .Replace("green suits", "绿色套装")
+                .Replace("hazard suits", "危险性套装"); 
+        }
     }
+
 }
